@@ -1,7 +1,7 @@
 /******************************************************************************/
 *									      *
 *	      Comparing Inflation and Interest Rate Measurments  	      *
-*		   	- Elena Casanovas. Nov 2020.   			      *
+*		   	- Elena Casanovas. Nov 2020 -   	              *
 /******************************************************************************/
 
 	cd	"/setpath" 
