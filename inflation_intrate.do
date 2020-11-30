@@ -1,6 +1,6 @@
 /******************************************************************************/
 *									      *
-*	      Comparing Inflation and Interest Rate Measurments  	      *
+*	      Comparing Inflation and Interest Rate Measures  	              *
 *		   	- Elena Casanovas. Nov 2020 -   	              *
 /******************************************************************************/
 
