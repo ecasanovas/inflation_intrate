@@ -43,10 +43,10 @@
 
 	drop CPIAUCSL PPIACO
 	
-	label var CPI_sa   		  "CPIAUCSL"
+	label var CPI_sa          "CPIAUCSL"
 	label var CPI_nsa         "CPIAUCNS"
 	label var FPCPITOTLZGUSA  "FPCPITOTLZGUSA"
-	label var PPIACO 		  "PPIACO"
+	label var PPIACO          "PPIACO"
 	label var A191RI1Q225SBEA "A191RI1Q225SBEA"
 	
 	** Figure 	
