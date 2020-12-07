@@ -37,9 +37,9 @@
 	keep if year >= 1950
 	
 	collapse (mean) CPIAUCNS CPIAUCSL FPCPITOTLZGUSA PPIACO A191RI1Q225SBEA, by(year)
-	gen CPI_sa      		= 100*(CPIAUCSL[_n] / CPIAUCSL[_n-1] - 1)
-	gen CPI_nsa     		= 100*(CPIAUCNS[_n] / CPIAUCNS[_n-1] - 1)
-	gen PPIACO1     		= 100*(PPIACO[_n]   / PPIACO[_n-1]   - 1)
+	gen CPI_sa      = 100*(CPIAUCSL[_n] / CPIAUCSL[_n-1] - 1)
+	gen CPI_nsa     = 100*(CPIAUCNS[_n] / CPIAUCNS[_n-1] - 1)
+	gen PPIACO1     = 100*(PPIACO[_n]   / PPIACO[_n-1]   - 1)
 
 	drop CPIAUCSL PPIACO
 	
